@@ -14,7 +14,7 @@ public class Traductor implements Comparable<Traductor>{
     private String key;
     private String value;
 
-    public Traductor(String key, String value) {
+    public Traductor(String value) {
         this.key = key;
         this.value = value;
     }
@@ -59,7 +59,7 @@ public class Traductor implements Comparable<Traductor>{
 
     @Override
     public String toString() {
-        return "Traductor{" + "key=" + key + ", value=" + value + '}';
+        return "Traductor{Valor=" + value + '}';
     }
 
     @Override
